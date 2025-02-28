@@ -40,3 +40,45 @@
 .read-the-docs {
   color: #888;
 }
+.dashboard-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.add-movie-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.add-movie-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-movie-container input,
+.add-movie-container select,
+.add-movie-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.add-movie-container button {
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.add-movie-container button[type="button"] {
+  background-color: #dc3545;
+}
